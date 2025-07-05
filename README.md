@@ -49,7 +49,7 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
-## 🛠Technical Details
+## Technical Details
 
 ### Built With
 - **Angular 17** - Frontend framework
@@ -100,7 +100,7 @@ interface Project {
 }
 ```
 
-## 📝 Available Scripts
+## Available Scripts
 
 - `npm start` - Start development server
 - `npm run build` - Build for production
