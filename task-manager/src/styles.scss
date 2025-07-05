@@ -1,0 +1,36 @@
+// Custom theme colors
+$theme-colors: (
+  "primary": #6366f1,    // Indigo
+  "secondary": #64748b,  // Slate
+  "success": #22c55e,    // Green
+  "info": #0ea5e9,       // Sky blue
+  "warning": #f59e0b,    // Amber
+  "danger": #ef4444,     // Red
+  "light": #f8fafc,      // Light gray
+  "dark": #0f172a        // Dark slate
+);
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.35em 0.65em;
+} 

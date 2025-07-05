@@ -1,0 +1,179 @@
+:root {
+  --primary-color: #577590;
+  --background-color: #fefae0;
+  --secondary-background: #eae2b7;
+  --text-color: #000000;
+  --status-incomplete: #F94144;
+  --status-in-progress: #F8961E;
+  --status-complete: #90BE6D;
+  --project-color: #dda15e;
+  --priority-high: #e63946;
+  --priority-medium: #ffb703;
+  --priority-low: #8ac926;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  background-color: var(--background-color);
+}
+
+.card {
+  background-color: var(--secondary-background);
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border-bottom: none;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-primary:hover {
+  background-color: #4a6480;
+  border-color: #4a6480;
+}
+
+.btn-danger {
+  background-color: var(--status-incomplete);
+  border-color: var(--status-incomplete);
+  color: var(--text-color);
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+.task-card {
+  margin-bottom: 1rem;
+  background-color: var(--secondary-background);
+}
+
+.task-card .card-header {
+  background-color: var(--secondary-background);
+  color: var(--text-color);
+}
+
+.task-card .card-body {
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+.task-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-background);
+}
+
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--project-color);
+  color: var(--text-color);
+}
+
+.status-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: var(--text-color);
+}
+
+.status-badge.not_started {
+  background-color: var(--status-incomplete);
+}
+
+.status-badge.in_progress {
+  background-color: var(--status-in-progress);
+}
+
+.status-badge.completed {
+  background-color: var(--status-complete);
+}
+
+.priority-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: var(--text-color);
+}
+
+.priority-badge.high {
+  background-color: var(--priority-high);
+}
+
+.priority-badge.medium {
+  background-color: var(--priority-medium);
+}
+
+.priority-badge.low {
+  background-color: var(--priority-low);
+}
+
+/* Status section headers */
+.card-header.bg-secondary {
+  background-color: var(--status-incomplete) !important;
+  color: var(--text-color);
+}
+
+.card-header.bg-primary {
+  background-color: var(--status-in-progress) !important;
+  color: var(--text-color);
+}
+
+.card-header.bg-success {
+  background-color: var(--status-complete) !important;
+  color: var(--text-color);
+}
+
+/* Form elements */
+.form-control, .form-select {
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+  color: var(--text-color);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(87, 117, 144, 0.25);
+}
+
+/* Modal styling */
+.modal-content {
+  background-color: var(--secondary-background);
+  color: var(--text-color);
+}
+
+.modal-header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.modal-footer {
+  background-color: var(--secondary-background);
+  border-top: 1px solid var(--primary-color);
+}
+
+/* List group items */
+.list-group-item {
+  background-color: var(--secondary-background);
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* Text colors */
+h1, h2, h3, h4, h5, h6, p, small {
+  color: var(--text-color);
+} 
