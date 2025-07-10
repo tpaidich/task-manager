@@ -8,12 +8,12 @@ A modern, responsive task management application built with Angular 17 and Boots
 
 ## Features
 
-- **Create, edit, and delete tasks** sorted by status, priority, and due date
-- **Create custom projects** with names, descriptions, and color-coded indicators
-- **Assign tasks to projects** for better organization
-- **Kanban-style layout** with drag-and-drop ready structure
-- **Local storage** - your data stays between sessions
-- **No backend required** - runs entirely in your browser
+- Create, edit, and delete tasks sorted by status, priority, and due date
+- Create custom projects with names, descriptions, and color-coded indicators
+- Assign tasks to projects for better organization
+- Kanban-style layout  with drag-and-drop ready structure
+- Local storage - your data stays between sessions
+- No backend required - runs entirely in your browser
 
 ## Getting Started
 ### Prerequisites
