@@ -72,37 +72,3 @@ src/
 │   │   └── app.component.*         # Root application component
 │   └── app.component.*         # Root application component
 ```
-
-### Key Components
-
-#### Task Model
-```typescript
-interface Task {
-  id: number;
-  title: string;
-  description: string;
-  status: 'not_started' | 'in_progress' | 'completed';
-  priority: 'low' | 'medium' | 'high';
-  completed: boolean;
-  dueDate?: Date;
-  projectId?: number;
-}
-```
-
-#### Project Model
-```typescript
-interface Project {
-  id: number;
-  name: string;
-  description: string;
-  color: string;
-  priority: 'none' | 'low' | 'medium' | 'high';
-}
-```
-
-## Available Scripts
-
-- `npm start` - Start development server
-- `npm run build` - Build for production
-- `npm run watch` - Build and watch for changes
-- `npm test` - Run unit tests
